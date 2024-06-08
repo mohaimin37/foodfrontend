@@ -1,0 +1,371 @@
+.navbar-brand{
+color: white;
+font-weight: 600;
+font-style: italic;
+}
+.navbar{
+    background: green;
+}
+.nav-item{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+.d-block{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fm{
+    display: flex; 
+    position: relative;
+    bottom: 100px;
+    justify-content: center;
+   
+}
+.fm input[type= "text"]{
+    width: 500px;
+    background: rgba(7, 6, 6, 0.611);
+    outline: none;
+    color: white;
+    border: none;
+   
+}
+.btn{
+    color: green;
+
+}
+.parentcard{
+    display: flex;
+    flex-direction: row;
+    display: table-row-group;
+}
+
+.card{
+    width: 300px;
+    margin: 10px;
+    
+}
+.card-img-top{
+    max-height: 200px;
+}
+.opt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slt1{
+    width: 60px;
+    color: white;
+    background: green;
+    outline: none;
+    border: none;
+}
+.slt2{
+    width: 80px;
+    color: white;
+    background: green;
+    outline: none;
+    border: none;
+
+}
+.d-flex{
+    background: orange;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    border: 1px solid black;
+    margin: 20px;
+
+}
+.form1 input{
+    width: 400px;
+    padding: 5px;
+    letter-spacing:1px;
+}
+
+.form1 h5{
+    font-size: larger;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.753);
+    padding-top: 3px;
+
+}
+.bt{
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: rgba(29, 29, 151, 0.948);
+    color: white;
+    border: none;
+    padding: 3px;
+}
+.bt:hover{
+    outline: 1px solid black;
+}
+.wow{
+    text-decoration: none;
+}
+.pop {
+    color: green ;
+}
+.po{
+    color: green;
+}
+.login{
+    margin-left: 70vw;
+    position: static;
+}
+.register{
+    margin-left: 10px;
+    position: static;
+}
+.home{
+    position: static;
+}
+.mycart{
+    margin-left: 60vw;
+    position: static;
+
+}
+.logout{
+    color: rgb(131, 205, 21);
+    border: 1px solid black;
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+}
+.addtocart{
+    background: orange;
+    margin-top: 5px;
+    width: 150px;
+    outline: 1px solid black;
+    margin-top: 20px;
+    border: none;
+}
+.addtocart:hover{
+    color: white;
+    outline: none;
+}
+.divcart{
+    margin-left: 26px;
+   
+}
+
+.th{
+    font-size: 400;
+    margin-top: 10px;
+    
+}
+.total{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+}
+td{
+    margin-top: 10px;
+
+}
+.class{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.checkout{
+    background: transparent;
+    color: rgba(251, 167, 12, 0.931);
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+.checkout:hover{
+    border: none;
+    font-size: larger;
+}
+table{
+    margin: 50px;
+}
+
+
+.dlte{
+    color: yellowgreen;
+    background: orange;
+    border: none;
+    outline: none;
+}
+.dlte:hover{
+    color: greenyellow;
+}
+.mycart{
+    border: 1px solid black;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.length{
+    color: orangered;
+    margin: 2px;
+    padding: 5px;
+     
+}
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    height: 500px;
+    letter-spacing: 2px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navbar-brand{
+        color: white;
+        font-weight: 600;
+        font-style: italic;
+        }
+        .navbar{
+            background: rgb(124, 81, 163);
+        }
+        .nav-item{
+            margin-left: 5px;
+            color: white;
+            text-decoration: none;
+        }
+        .d-block{
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .fm{
+            display: flex; 
+            position: relative;
+            bottom: 100px;
+            justify-content: center;
+           
+        }
+        .fm input[type= "text"]{
+            width: 200px;
+            background: rgba(7, 6, 6, 0.611);
+            outline: none;
+            color: white;
+            border: none;
+            margin-left: 60px;
+           
+        }
+        .btn{
+            color: green;
+        
+        }
+        
+        .card{
+            width: 300px;
+            margin: 10px;
+            background: #000;
+            
+        }
+        .card-img-top{
+            max-height: 200px;
+        }
+        .card-title{
+            color: white;
+        }
+        .card-text{
+            color: white;
+        }
+        .opt{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .slt1{
+            width: 60px;
+            color: white;
+            background: green;
+            outline: none;
+            border: none;
+        }
+        .slt2{
+            width: 80px;
+            color: white;
+            background: green;
+            outline: none;
+            border: none;
+        
+        }
+        .d-flex{
+            background: orange;
+            margin-left: 30px;
+        }
+        .form1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 450px;
+            border: 1px solid black;
+            margin: 20px;
+        
+        }
+        .form1 input{
+            width: 400px;
+            padding: 5px;
+            letter-spacing:1px;
+        }
+        
+        .form1 h5{
+            font-size: larger;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.753);
+            padding-top: 3px;
+        
+        }
+        .bt{
+            width: 200px;
+            margin-bottom: 10px;
+            background-color: rgba(29, 29, 151, 0.948);
+            color: white;
+            border: none;
+            padding: 3px;
+        }
+        .bt:hover{
+            outline: 1px solid black;
+        }
+        .wow{
+            text-decoration: none;
+        }
+        .pop {
+            color: green ;
+        }
+        .po{
+            color: green;
+        }
+        .login{
+            margin-left: 70vw;
+            position: static;
+        }
+        .register{
+            margin-left: 10px;
+            position: static;
+        }
+        .home{
+            position: static;
+        }
+        .mycart{
+            margin-left: 60vw;
+            position: static;
+        
+        }
+  }
